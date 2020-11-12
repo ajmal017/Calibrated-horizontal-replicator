@@ -2,8 +2,10 @@ from QuantConnect import *
 from QuantConnect.Data import *
 from QuantConnect.Algorithm import *
 from QuantConnect.Indicators import *
-
+#########################################
 from datetime import timedelta
+
+# Kommentar zu Testzwecken!
 
 class MACD_Extension_Example(QCAlgorithm):
 
