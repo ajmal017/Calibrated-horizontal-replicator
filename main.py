@@ -5,15 +5,6 @@ from QuantConnect.Indicators import *
 #########################################
 from datetime import timedelta
 
-# Kommentar zu Testzwecken!
-
-# ein weiterer Kommentar nachem ich *.qcproject zu .gitignore hinzugefügt habe. :-)
-
-# und noch ein Kommentar! 
-
-## sdfgsdfgsdfgsdfgsdfgsdfgsfdg
-
-
 
 class MACD_Extension_Example(QCAlgorithm):
 
