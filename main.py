@@ -7,6 +7,8 @@ from datetime import timedelta
 
 # Kommentar zu Testzwecken!
 
+# ein weiterer Kommentar nachem ich *.qcproject zu .gitignore hinzugefügt habe. :-)
+
 class MACD_Extension_Example(QCAlgorithm):
 
     def Initialize(self):

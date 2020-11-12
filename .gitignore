@@ -1,1 +1,3 @@
-*.qcproject
+# files to ignore by git
+
+.qcproject
