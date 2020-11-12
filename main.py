@@ -11,6 +11,8 @@ from datetime import timedelta
 
 # und noch ein Kommentar! 
 
+## sdfgsdfgsdfgsdfgsdfgsdfgsfdg
+
 
 
 class MACD_Extension_Example(QCAlgorithm):
