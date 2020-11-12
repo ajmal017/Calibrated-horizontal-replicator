@@ -17,6 +17,9 @@ class MACD_Extension_Example(QCAlgorithm):
         self.std = {symbol: self.STD(symbol, 9, Resolution.Daily) for symbol in self.symbols}
         self.macd_std = {symbol: IndicatorExtensions.Of(self.macd[symbol], self.std[symbol]) for symbol in self.symbols}
         self.SetWarmUp(timedelta(days=26))
+        spy_symbol = SymbolCache.GetSymbol("SPY")
+        
+        
 
 
     def OnData(self, data):
